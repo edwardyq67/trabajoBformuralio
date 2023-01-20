@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/pexels-matthew-montrone-1324803.jpg);
+    animation: movimiento 20s infinite linear alternate;
+    width: auto;
+    height: 120vh;
+    background-size: cover;
+    
+}
+@keyframes movimiento{
+    from{
+      background-position: bottom left;
+    }to{
+      background-position: top right;
+    }
+  }
+.butonForm label{
+color: aliceblue;
+font-size: 30px;
+user-select: none;
+}
+.butonForm label:hover{
+color: aqua;
+border-bottom:2px solid aqua ;
+transition: all 1s ease ;
+
+
+}
+.butonForm{
+    background: rgba(0, 0, 0,.5);
+    padding-bottom: 20px;
+}

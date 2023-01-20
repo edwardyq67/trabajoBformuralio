@@ -1,0 +1,95 @@
+.butonForm{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 50px;
+    height: 60px;
+}
+.activarForm h2{
+    margin: -20px;
+}
+.activarForm{
+    -webkit-text-stroke: 1px red;
+    margin: 10px;
+   padding: 10px;
+   width: auto;
+   cursor: pointer;
+   
+}
+
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    transition: all 500ms ease;
+    display: grid;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 20;
+}
+#btn-menu:checked~.container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    place-self: center;
+    border-radius: 17px;
+    background: #ffffff;
+    box-shadow:  6px 6px 7px #1c1a1a,
+                 -6px -6px 7px #2e2a2a;
+    padding: 40px;
+    
+}
+.tile-form{
+    text-align: center;
+    margin-bottom: 10px;
+    user-select: none;
+    
+}
+.form label{
+    margin-right: 5px;
+} 
+.form{
+    user-select: none;
+}
+.form input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+    
+}
+.form input:focus{
+    outline: none;
+}
+.input-container{
+    margin: 5px;
+}
+.cont-butom{
+    text-align: center;
+
+}
+
+.cont-butom button{
+    margin: 5px;
+    border-style: none;
+    padding: 5px;
+    background: rgb(75, 68, 68);
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cont-butom button:hover{
+    filter: opacity(.9);
+    transform: scale(1.02);
+} 
+.cont-menu .x{
+    float: right;
+    margin-top: -20px;
+    font-size: 20px;
+    cursor: pointer;
+}

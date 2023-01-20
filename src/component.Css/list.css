@@ -1,0 +1,45 @@
+.grid-container{
+   display:grid;
+   grid-gap: 40px;
+   grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+   
+   margin: 20px;
+}
+ul li {
+    list-style: none;
+    border-radius: 17px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.294);
+    padding: 8px;
+    text-align: center;
+    font-family:Constantia;
+    font-size: 14.5px;
+}
+/*color: rgba(203, 255, 216, 0.952);*/
+ul li h3 b{
+    color: rgba(203, 255, 216, 0.952);
+    
+}
+ul li h3{
+    margin: 3px;
+    color: rgb(255, 255, 255);
+    user-select: none;
+}
+ul li .li-butom{
+    text-align: center;
+    user-select: none;
+    margin-top: 8px;
+
+}
+.li-butom button{
+    margin: 5px;
+    padding: 3.5px;
+    background: rgb(249, 255, 252);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 1px 3px 0 #000;
+    cursor: pointer;
+    font-size: 12.5px;
+}
